@@ -21,7 +21,7 @@ var style_Gasoductosenconstruccin_6 = function(feature, resolution){
         labelText = String("");
     }
     var style = [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(152,0,255,1.0)', lineDash: null, lineCap: 'round', lineJoin: 'round', width: 4.787999999999999}),,
+        stroke: new ol.style.Stroke({color: 'rgba(152,0,255,1.0)', lineDash: [6,4], lineCap: 'round', lineJoin: 'round', width: 4.787999999999999}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
